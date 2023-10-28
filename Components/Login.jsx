@@ -1,4 +1,4 @@
-import { Divider } from "@mui/material";
+import Divider from "@mui/material/Divider";
 import leftImg from "@/public/leftimg.svg";
 import RightImg from "@/public/cocuk.png";
 import facebookLogo from "@/public/facebook.png";
@@ -79,9 +79,11 @@ export default function Login() {
         >
           next
         </Button>
-        <Divider>
-          <span className="font-bold">Login</span> with others
-        </Divider>
+        <div className="w-1/2">
+          <Divider>
+            <span className="font-bold">Login</span> With Orthers
+          </Divider>
+        </div>
 
         <Button
           className="rounded-xl"
